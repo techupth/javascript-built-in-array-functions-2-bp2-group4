@@ -375,4 +375,12 @@ const bills = [
 
 // Start coding here
 
-const newBills;
+let newBills;
+function reAssignBills(object){
+  if(object.member !== null){
+    return object;
+  }
+}
+
+newBills = bills.filter(reAssignBills);
+console.log(newBills)
